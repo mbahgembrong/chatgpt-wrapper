@@ -1,4 +1,4 @@
-FROM accetto/ubuntu-vnc-xfce-python-g3:vscode-firefox
+FROM accetto/ubuntu-vnc-xfce-firefox-g3:24.04
 COPY . /src
 WORKDIR /src
 
